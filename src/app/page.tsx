@@ -1,4 +1,5 @@
 import Image from "next/image";
+import { Input } from "@/components/ui/input"
 
 export default function Home() {
   return (
@@ -7,8 +8,9 @@ export default function Home() {
       {/* The goal is clone UI, not functionalatiy */}
       {/* 1 - mobile responsive - text size -  conatiner witdh, height */}
       {/* 2 - write everything on 1 page first, then split into components when done */}
+      {/* 3 - use shadcn ui/ mui icon/ mantine or any ui library for icon/ search bar... */}
       
-      <header className="flex items-center justify-center gap-2">
+      <header className="flex flex-wrap items-center justify-center gap-2">
         <div>HAMBURGER ICON</div>
         <div>KEEP IMAGE</div>
         <div>KEEP IMAGE</div>
@@ -19,6 +21,7 @@ export default function Home() {
         <div>ALL APPS</div>
         <div>USER ICON</div>
       </header>
+
 
       <main className = "flex">
 
@@ -31,7 +34,7 @@ export default function Home() {
         </div>
 
         <div className = "w-3/4">
-          <div>INPUT BAR</div>
+          <div><Input /></div>
           <div>NOTE</div>
         </div>
 
