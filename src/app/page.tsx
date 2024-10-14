@@ -8,7 +8,7 @@ export default function Home() {
       {/* The goal is clone UI, not functionalatiy */}
       {/* 1 - mobile responsive - text size -  conatiner witdh, height */}
       {/* 2 - write everything on 1 page first, then split into components when done */}
-      {/* 3 - use shadcn ui/ mui icon/ mantine or any ui library for icon/ search bar... */}
+      {/* 3 - use shadcn ui/ mui icon/ mantine or any ui library for icon/ search bar */}
       
       <header className="flex flex-wrap items-center justify-center gap-2">
         <div>HAMBURGER ICON</div>
@@ -20,7 +20,7 @@ export default function Home() {
         <div>SETTINGS</div>
         <div>ALL APPS</div>
         <div>USER ICON</div>
-      </header>
+      </header> 
 
 
       <main className = "flex">
