@@ -3,31 +3,36 @@ import Image from "next/image";
 export default function Home() {
   return (
     <div>
-      <header className="">
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
-        <div>a</div>
+
+      {/* The goal is clone UI, not functionalatiy */}
+      {/* 1 - mobile responsive - text size -  conatiner witdh, height */}
+      {/* 2 - write everything on 1 page first, then split into components when done */}
+      
+      <header className="flex items-center justify-center gap-2">
+        <div>HAMBURGER ICON</div>
+        <div>KEEP IMAGE</div>
+        <div>KEEP IMAGE</div>
+        <div>SEARCH BAR</div>
+        <div>LOADING ICON</div>
+        <div>GRID VIEW</div>
+        <div>SETTINGS</div>
+        <div>ALL APPS</div>
+        <div>USER ICON</div>
       </header>
 
-      <main>
+      <main className = "flex">
 
-        <div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
-          <div></div>
+        <div className = "w-1/4">
+          <div>SIDEBAR ICON 1</div>
+          <div>SIDEBAR ICON 2</div>
+          <div>SIDEBAR ICON 3</div>
+          <div>SIDEBAR ICON 4</div>
+          <div>SIDEBAR ICON 5</div>
         </div>
 
-        <div>
-          <div></div>
-          <div></div>
+        <div className = "w-3/4">
+          <div>INPUT BAR</div>
+          <div>NOTE</div>
         </div>
 
       </main>
