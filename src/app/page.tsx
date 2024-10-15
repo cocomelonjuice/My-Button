@@ -1,5 +1,13 @@
 import Image from "next/image";
 import { Input } from "@/components/ui/input"
+import {  Command,CommandInput} from "@/components/ui/command"
+import { HamburgerMenuIcon } from "@radix-ui/react-icons"
+import { ReloadIcon } from "@radix-ui/react-icons"
+import { DashboardIcon } from "@radix-ui/react-icons"
+import { GearIcon} from "@radix-ui/react-icons"
+import { LayersIcon } from "@radix-ui/react-icons"
+import { PersonIcon } from "@radix-ui/react-icons"
+import { BackpackIcon, BellIcon,Pencil1Icon, ArchiveIcon, TrashIcon } from "@radix-ui/react-icons"
 
 export default function Home() {
   return (
@@ -9,32 +17,33 @@ export default function Home() {
       {/* 1 - mobile responsive - text size -  conatiner witdh, height */}
       {/* 2 - write everything on 1 page first, then split into components when done*/}
       {/* 3 - use shadcn ui/ mui icon/ mantine or any ui library for icon/search bar*/}
+      {/* X - build backend with Postgres Vercel : user input a note -> note go to Postgres table-> data from Postgres fetch, render back on user's UI */}
       
-      <header className="flex flex-wrap items-center justify-center gap-2">
-        <div>HAMBURGER ICON</div>
-        <div>KEEP IMAGE</div>
-        <div>KEEP IMAGE</div>
-        <div>Seach bar</div>
-        <div>LOADING ICON</div>
-        <div>GRID VIEW</div>
-        <div>SETTINGS</div>
-        <div>ALL APPS</div>
-        <div>USER ICON</div>
+      <header className="flex flex-wrap items-center justify-center gap-2 border-2">
+        <div><HamburgerMenuIcon width="24px" height="55px"/></div>
+        <div><a href="https://logowik.com/google-keep-vector-logo-5971.html"><img src="https://logowik.com/content/uploads/images/google-keep3316.jpg" width="60" 
+     height="80" /></a></div>
+        <div><Command><CommandInput placeholder="Search"  /></Command></div>
+        <div><ReloadIcon width="24px" height="55px"/></div>
+        <div><DashboardIcon width="24px" height="55px"/></div>
+        <div> <GearIcon width="24px" height="55px"/> </div>
+        <div><LayersIcon width="24px" height="55px"/></div>
+        <div><PersonIcon width="24px" height="55px"/></div>
       </header> 
 
 
       <main className = "flex">
 
         <div className = "w-1/4">
-          <div>SIDEBAR ICON 1</div>
-          <div>SIDEBAR ICON 2</div>
-          <div>SIDEBAR ICON 3</div>
-          <div>SIDEBAR ICON 4</div>
-          <div>SIDEBAR ICON 5</div>
+          <div> <BackpackIcon width="24px" height="55px" /></div>
+          <div><BellIcon width="24px" height="55px" /></div>
+          <div><Pencil1Icon width="24px" height="55px" /></div>
+          <div><ArchiveIcon width="24px" height="55px" /></div>
+          <div><TrashIcon width="24px" height="55px" /></div>
         </div>
 
         <div className = "w-1/2">
-          <div><Input /></div>
+          <div><Input placeholder="Take a note" /></div>
           <div>NOTE</div>
         </div>
 
