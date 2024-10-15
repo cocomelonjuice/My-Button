@@ -14,7 +14,7 @@ export default function Home() {
         <div>HAMBURGER ICON</div>
         <div>KEEP IMAGE</div>
         <div>KEEP IMAGE</div>
-        <div>SEARCH BAR</div>
+        <div>Seach bar</div>
         <div>LOADING ICON</div>
         <div>GRID VIEW</div>
         <div>SETTINGS</div>
@@ -33,7 +33,7 @@ export default function Home() {
           <div>SIDEBAR ICON 5</div>
         </div>
 
-        <div className = "w-3/4">
+        <div className = "w-1/2">
           <div><Input /></div>
           <div>NOTE</div>
         </div>
