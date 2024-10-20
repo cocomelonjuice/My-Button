@@ -17,7 +17,7 @@ export default function Home() {
       {/* 1 - mobile responsive - text size -  conatiner witdh, height */}
       {/* 2 - write everything on 1 page first, then split into components when done*/}
       {/* 3 - use shadcn ui/ mui icon/ mantine or any ui library for icon/search bar*/}
-      {/* X - build backend with Postgres Vercel : user input a note -> note go to Postgres table-> data from Postgres fetch, render back on user's UI */}
+      {/* build backend with Postgres Vercel : user input a note -> note go to Postgres table-> data from Postgres fetch, render back on user's UI */}
       
       <header className="flex flex-wrap items-center justify-center gap-2 border-2">
         <div><HamburgerMenuIcon width="24px" height="55px"/></div>
